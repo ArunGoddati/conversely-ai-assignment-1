@@ -1,0 +1,48 @@
+.big-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.box {
+  height:95px;
+  width:95px;
+  font-size:15px;
+}
+.boxOrange{
+  background-color:orange;
+}
+.boxGreen{
+  background-color:green;
+}
+@media screen and (min-width:425px){
+  .box {
+    height:110px;
+    width:110px;
+    font-size:20px;
+  }
+  .big-container{
+    width:425px;
+  }
+}
+@media screen and (min-width:768px){
+  .box {
+    height:200px;
+    width:200px;
+    font-size:20px;
+  }
+  .big-container{
+    width:768px;
+  }
+}
+@media screen and (min-width:1024px){
+  .box {
+    height:300px;
+    width:300px;
+    font-size:25px;
+  }
+  .big-container{
+    width:1024px;
+  }
+}
